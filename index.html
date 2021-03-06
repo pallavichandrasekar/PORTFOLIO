@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+        <title>Pallavi Portfolio</title>
+    </head>
+    <body>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-chevron-up scrolltop__icon'></i>
+        </a>
+
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">P</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#Portfolio" class="nav__link">Portfolio</a></li>
+                        <li class="nav__item"><a href="#Experience" class="nav__link">Experience</a></li>
+
+                        <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--========== HOME ==========-->
+            <section class="home" id="home">
+                <div class="home__container bd-container bd-grid">
+                    <div class="home__data" data-aos="fade-down" data-aos-delay="200">
+                        <h1 class="home__title">Pallavi</h1>
+                        <h2 class="home__subtitle">Web Developer and Cybersecurity Analyst</h2>
+                    </div>
+                </div>
+            </section>
+            
+            <!--========== ABOUT ==========-->
+            <section class="about section bd-container" id="about">
+                <div class="about__container  bd-grid">
+                    <div class="about__data">
+                        <div class="about-heading"  data-aos="fade-left" data-aos-delay="200">
+                            <h1>About</h1>
+                            <h6>Myself</h6>
+                        </div>
+                        <div  data-aos="fade-left" data-aos-delay="200">
+                            <p class="about__description">I am a Web developer and Cyber security analyst with lots of creativity and robust problem solving skills and a creative mind. Self competing has always been my strength behind all my works.</p>
+                        </div>
+                    </div>
+
+                    <img data-aos="fade-right" data-aos-delay="200" src="assets/img/profile.jpg" alt="" class="about__img">
+                </div>
+            </section>
+
+            <!--========== skills ==========-->
+            <section class="skills section bd-container" id="skills">
+                <div class="skills-heading" data-aos="fade-down" data-aos-delay="200">
+                    <h1>Skills</h1>
+                    <h6>My</h6>
+                </div>
+                <div class="skills__container  bd-grid">
+                    <div class="skills__content" data-aos="fade-down" data-aos-delay="800">
+                        <svg class="skills__img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <g clip-path="url(#clip0)">
+                                <path d="M20,3H4C2.897,3,2,3.897,2,5v14c0,1.103,0.897,2,2,2h16c1.103,0,2-0.897,2-2V5C22,3.897,21.103,3,20,3z M20,5l0.001,4H4V5 H20z M4,19v-8h16.001l0.001,8H4z"/><path d="M14 6H16V8H14zM17 6H19V8H17z"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0">
+                                <rect width="64" height="64" fill="white"/>
+                            </clipPath>
+                            </defs>
+                        </svg>
+                        <h3 class="skills__title">Web Design</h3>
+                        <p class="skills__description">Figma, HTML and CSS</p>
+                    </div>
+
+                    <div class="skills__content" data-aos="fade-down" data-aos-delay="800">
+                        <svg class="skills__img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <g clip-path="url(#clip0)">
+                                <path d="M7.375 16.781l1.25-1.562L4.601 12l4.024-3.219-1.25-1.562-5 4C2.138 11.409 2 11.696 2 12s.138.591.375.781L7.375 16.781zM16.625 7.219l-1.25 1.562L19.399 12l-4.024 3.219 1.25 1.562 5-4C21.862 12.591 22 12.304 22 12s-.138-.591-.375-.781L16.625 7.219z"/><path transform="rotate(102.527 12 12)" d="M2.78 11H21.219V13.001H2.78z"/>
+                            </g>
+                            <defs>
+                                <clipPath id="clip0">
+                                    <rect width="64" height="64" fill="white"/>
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        <h3 class="skills__title">Web Development</h3>
+                        <p class="skills__description">HTML, CSS, Javascript, JQuery and React</p>
+                    </div>
+
+                    <div class="skills__content" data-aos="fade-down" data-aos-delay="800">
+                        <svg class="skills__img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <g clip-path="url(#clip0)">
+                                <path d="M20.995,6.9c-0.034-0.342-0.241-0.642-0.548-0.795l-8-4c-0.281-0.141-0.613-0.141-0.895,0l-8,4 C3.246,6.259,3.039,6.559,3.005,6.9c-0.011,0.107-0.961,10.767,8.589,15.014C11.723,21.972,11.861,22,12,22 s0.277-0.028,0.406-0.086C21.956,17.667,21.006,7.008,20.995,6.9z M12,19.897C5.231,16.625,4.911,9.642,4.966,7.635L12,4.118 l7.029,3.515C19.066,9.622,18.701,16.651,12,19.897z"/><path d="M11 12.586L8.707 10.293 7.293 11.707 11 15.414 16.707 9.707 15.293 8.293z"/>
+                            </g>
+                            <defs>
+                                <clipPath id="clip0">
+                                    <rect width="64" height="64" fill="white"/>
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        <h3 class="skills__title">Cybersecurity</h3>
+                        <p class="skills__description">Network Security, Ethical Hacking and Penetration Testing</p>
+                    </div>
+                </div>
+            </section>
+            <br>
+            <br>
+
+            <!--========== PORTFOLIO ==========-->
+            <section class="Portfolio section bd-container" id="Portfolio">
+                <div class="container">
+                    <div class="Portfolio-title" data-aos="fade-down" data-aos-delay="200">
+                        <h1>Portfolio</h1>
+                        <h6>View some of my recent work</h6>
+                    </div>
+                    <div class="portfolio-container">
+                        <div class="portfolio-item">
+                            <div class="portfolio-img" data-aos="fade-right" data-aos-delay="400">
+                                <img src="portitem1.jpg" alt="Project1-img">
+                            </div>
+                            <div class="portfolio-description" data-aos="fade-left" data-aos-delay="400">
+                                
+                                <h1>Website 1</h1>
+                                <p>jwekhkjehewfhjkhhjkiiuwfe</p>
+                                <a href="#" class="cta">View Project</a>
+                            </div>
+                        </div>
+                        <div class="portfolio-item">
+                            <div class="portfolio-img" data-aos="fade-right" data-aos-delay="400">
+                                <img src="portitem2.jpg" alt="Project2-img">
+                            </div>
+                            <div class="portfolio-description" data-aos="fade-left" data-aos-delay="400">
+                                
+                                <h1>Design 1</h1>
+                                <p>jwekhkjehewfhjkhhjkiiuwfe</p>
+                                <a href="#" class="cta">View Project</a>
+                            </div>
+                        </div>
+                        <div class="portfolio-item">
+                            <div class="portfolio-img" data-aos="fade-right" data-aos-delay="400">
+                                <img src="portitem3.jpg" alt="Project3-img">
+                            </div>
+                            <div class="portfolio-description" data-aos="fade-left" data-aos-delay="400">
+                                
+                                <h1>PenTest</h1>
+                                <p>jwekhkjehewfhjkhhjkiiuwfe</p>
+                                <a href="#" class="cta">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>    
+        
+
+            <!--========== EXPERIENCE ==========-->
+            <section class="Experience section bd-container" id="Experience">
+                <div class="container">
+                    <div class="Experience-heading" data-aos="fade-down" data-aos-delay="200">
+                        <h1>Experience</h1>
+                        <h6>Publications and voluntary experience</h6>
+                    </div>
+                    <div class="timeline" data-aos="fade-right" data-aos-delay="300">
+                        <ul>
+                            <li class="date" data-date="2021">
+                                <div data-aos="fade-left" data-aos-delay="400">
+                                <h1>Publication - An analysis on Network Security Tools and Systems</h1>
+                                <p>This is a research paper presented in ICICC-2021 which based on network security tools</p>
+                                </div>
+                            </li>
+                            <li class="date" data-date="2020-Present">
+                                <div data-aos="fade-left" data-aos-delay="400">
+                                    <h1>Association for Unmanned Vehicle Systems International - President</h1>
+                                    <p>Association for Unmanned Vehicle Systems International (AUVSI) is an international nonprofit organization dedicated to promoting and supporting the unmanned systems and robotics industry through communication, education, and leadership.</p>
+                                </div>
+                            </li>
+                            <li class="date" data-date="2019">
+                                <div data-aos="fade-left" data-aos-delay="400">
+                                    <h1>VITCC Robotics club - Secretary</h1>
+                                    <p>VITCC Robotics club is one of the most renowned club in Vellore Institute of Technology, Chennai Campus</p>
+                                </div>
+                            </li>
+                            <li class="date" data-date="2019">
+                                <div data-aos="fade-left" data-aos-delay="400">
+                                    <h1>Roboprix 2.0 -Marketing Head</h1>
+                                    <p>Roboprix is a national level robotics competition held in VIT Chennai</p>
+                                </div>
+                            </li>
+                            <li class="date" data-date="2019">
+                                <div data-aos="fade-left" data-aos-delay="400">
+                                    <h1>Diseno'19 - TechnoVIT</h1>
+                                    <p>TechnoVIT is an international level technical festival of VIT Chennai. Diseno is a team for one of the branches in VIT. </p>
+                                </div>
+                                
+                            </li>
+                            <li class="date" data-date="2019">
+                                <div data-aos="fade-left" data-aos-delay="400">
+                                    <h1>Vibrance'19</h1>
+                                    <p>Vibrance is a National level Cultural and Sports Festival of VIT Chennai.The event enthralls the attendees by presenting EDM, Proshow, and Choreo Night on three nights.</p>
+                                </div>
+                            </li>
+                            <li class="date" data-date="2018">
+                                <div data-aos="fade-left" data-aos-delay="400">
+                                    <h1>Diseno'18 - TechnoVIT</h1>
+                                    <p>TechnoVIT is an international level technical festival of VIT Chennai. Diseno is a team for one of the branches in VIT. </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        
+
+            <!--========== CONTACT ==========-->
+            <section class="Contact section bd-container" id="Contact">
+                <div class="contact__content">
+                    <div class="Contact-heading" data-aos="fade-down" data-aos-delay="200">
+                        <h1>Contact</h1>
+                        <h6>Let's work together</h6>
+                    </div>
+                    <div class="contact-me"data-aos="fade-down" data-aos-delay="700">
+                        <button onclick="window.open('mailto:pallavichandrasekar19@gmail.com');">Say Hello!</button>
+                    </div>
+                </div>
+            </section>
+
+        <!--========== FOOTER ==========-->
+        <footer class="footer section">
+            <div class="footer__content">
+                <a href="https://www.linkedin.com/in/pallavi-c-3b6286174/" class="footer__social"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="https://twitter.com/CPallavi4" class="footer__social"><i class='bx bxl-twitter'></i></a>
+
+                <p class="footer__copy">Created by Pallavi <span><i class= 'bx bxs-heart'></i></span></p>
+            </div>
+            
+        </footer>
+
+        <!--========== SCROLL REVEAL ==========-->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
